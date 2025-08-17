@@ -16,4 +16,4 @@
 ## Examples of other valid options; For more, please view the user guide
 ### java -jar RepoSense.jar --repos https://github.com/reposense/RepoSense.git
 
-java -jar RepoSense.jar
+java -jar RepoSense.jar --repos https://github.com/claudiap-25/ceva-site.git --output ./reposense-report --since 13/8/2025 --until 14/8/2025 --ignore-filesize-limit --ignore-standalone-config --last-modified-date --find-previous-authors --analyze-authorship --originality-threshold 0.66
